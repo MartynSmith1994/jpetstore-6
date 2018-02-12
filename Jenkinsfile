@@ -14,22 +14,16 @@ pipeline
                 echo 'Building..'
                 sh 'mvn clean verify'
             }
-            post
-            {
-                success
-                {
-                     stage('Test') 
-                     {
-                        steps 
-                         {
-                            echo 'Testing..'
-                            junit 'target/surefire-reports/*.xml'
-                         }
-                     }
-                 }
-            }
        
         }
+        stage('Test') 
+           {
+           steps 
+                {
+                    echo 'Testing..'
+                    junit 'target/surefire-reports/*.xml'
+                 }
+            }
         stage('Deploy') 
         {
             steps 
