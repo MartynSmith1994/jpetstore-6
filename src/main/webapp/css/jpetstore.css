@@ -18,15 +18,15 @@ body {
   padding: 0ex;
   font-family: helvetica, tahoma, arial, verdana, sans-serif;
   font-size: 2ex;
-  color: #000;
-  background-color: #ffb6c1;
+  color: #333;
+  background-color: #444;
 }
 
 pre {
   font-family: "Courier New", Courier, mono;
 
   font-style: normal;
-  background-color: #FFFF00;
+  background-color: #FFFFFF;
   white-space: pre
 }
 
@@ -36,7 +36,7 @@ h1 {
 
   line-height: 3ex;
   font-weight: 900;
-  color: #ffb6c1;
+  color: #666;
 }
 
 h2 {
@@ -129,7 +129,7 @@ a.Button:hover {
   border-style: solid;
   border-color: #ccc;
   float: left;
-  background-color: #FFFF00;
+  background-color: #000;
   color: #fff;
   line-height: 9ex;
   voice-family: "\"}\"";
@@ -150,7 +150,7 @@ body>#Logo {
   border-style: solid;
   border-color: #ccc;
   float: left;
-  background-color: #FFF;
+  background-color: #000;
   color: #eaac00;
   text-decoration: none;
   font-family: helvetica, tahoma, arial, verdana, sans-serif;
@@ -184,7 +184,7 @@ body>#Menu {
   border-color: #ccc;
   float: left;
   text-align: center;
-  background-color: #FFF;
+  background-color: #000;
   color: #eaac00;
   line-height: 9ex;
   voice-family: "\"}\"";
@@ -257,7 +257,7 @@ body>#Banner {
   padding: 0ex 0ex 0ex 0ex;
   width: 99%;
   color: #333;
-  background-color: #000;
+  background-color: #FFF;
   border-width: 0;
 }
 
@@ -299,7 +299,7 @@ body>#Banner {
 #Catalog input[type="submit"]{
   padding: .3ex;
   color: #fff;
-  background-color: #FFF;
+  background-color: #005e21;
   text-decoration: none;
   font-family: helvetica, tahoma, arial, verdana, sans-serif;
   font-size: 1.5ex;
