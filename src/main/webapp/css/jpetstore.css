@@ -150,7 +150,7 @@ body>#Logo {
   border-style: solid;
   border-color: #ccc;
   float: left;
-  background-color: #ffb6c1;
+  background-color: #FFF;
   color: #eaac00;
   text-decoration: none;
   font-family: helvetica, tahoma, arial, verdana, sans-serif;
@@ -184,7 +184,7 @@ body>#Menu {
   border-color: #ccc;
   float: left;
   text-align: center;
-  background-color: #000;
+  background-color: #FFF;
   color: #eaac00;
   line-height: 9ex;
   voice-family: "\"}\"";
@@ -299,7 +299,7 @@ body>#Banner {
 #Catalog input[type="submit"]{
   padding: .3ex;
   color: #fff;
-  background-color: #005e21;
+  background-color: #FFF;
   text-decoration: none;
   font-family: helvetica, tahoma, arial, verdana, sans-serif;
   font-size: 1.5ex;
