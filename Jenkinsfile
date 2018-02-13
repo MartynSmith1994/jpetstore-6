@@ -13,6 +13,8 @@ pipeline
             {
                 echo 'Building..'
                 sh 'mvn clean verify'
+                echo 'Starting the tomcat server..'
+                sh './mvnw cargo:run -P tomcat90'
             }
        
         }
