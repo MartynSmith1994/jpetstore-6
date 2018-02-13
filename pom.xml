@@ -35,8 +35,8 @@
   <url>http://www.mybatis.org</url>
 
   <scm>
-    <url>http://github.com/mybatis/jpetstore-6</url>
-    <connection>scm:git:ssh://github.com/mybatis/jpetstore-6.git</connection>
+    <url>https://github.com/MartynSmith1994/jpetstore-6.git</url>
+    <connection>scm:git:https://github.com/MartynSmith1994/jpetstore-6.git</connection>
     <developerConnection>scm:git:https://github.com/MartynSmith1994/jpetstore-6.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
