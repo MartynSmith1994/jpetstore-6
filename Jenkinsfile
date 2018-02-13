@@ -29,7 +29,6 @@ pipeline
             steps 
             {
                 echo 'Deploying....'
-                sh 'mvn cargo:deploy'
                 
             }
         }
