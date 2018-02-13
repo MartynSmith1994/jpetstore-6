@@ -19,7 +19,7 @@ body {
   font-family: helvetica, tahoma, arial, verdana, sans-serif;
   font-size: 2ex;
   color: #000;
-  background-color: #444;
+  background-color: #ffb6c1;
 }
 
 pre {
@@ -36,7 +36,7 @@ h1 {
 
   line-height: 3ex;
   font-weight: 900;
-  color: #666;
+  color: #ffb6c1;
 }
 
 h2 {
@@ -150,7 +150,7 @@ body>#Logo {
   border-style: solid;
   border-color: #ccc;
   float: left;
-  background-color: #FFFF00;
+  background-color: #ffb6c1;
   color: #eaac00;
   text-decoration: none;
   font-family: helvetica, tahoma, arial, verdana, sans-serif;
