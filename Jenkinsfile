@@ -29,7 +29,8 @@ pipeline
             steps 
             {
                 echo 'Deploying....'
-                sh("cp ${war} /tmp/webapps/${id}.war")
+          
+                mvn tomcat9:deploy
             }
         }
     }
