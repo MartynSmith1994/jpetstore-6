@@ -29,7 +29,7 @@ pipeline
             steps 
             {
                 echo 'Deploying....'
-                mvn cargo:deploy
+                sh 'mvn tomat9:deploy'
                 
             }
         }
