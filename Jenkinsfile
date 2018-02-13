@@ -29,7 +29,7 @@ pipeline
             steps 
             {
                 echo 'Deploying....'
-                sh 'sudo cp /Users/Shared/Jenkins/Home/workspace/useCaseTest/target/jpetstore.war /Users/martyn/apache-tomcat-9.0.5/webapps/'
+                sh 'cp /Users/Shared/Jenkins/Home/workspace/useCaseTest/target/jpetstore.war /Users/martyn/apache-tomcat-9.0.5/webapps/'
                 
             }
         }
