@@ -29,8 +29,7 @@ pipeline
             steps 
             {
                 echo 'Deploying....'
-          
-                mvn tomcat9:deploy
+                
             }
         }
     }
