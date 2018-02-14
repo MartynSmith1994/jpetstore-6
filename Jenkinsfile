@@ -31,7 +31,7 @@ pipeline
                 echo 'Deploying....'       
                 
                     
-                sh 'scp -i ~/.ssh/ForestMain /Users/Shared/Jenkins/Home/workspace/useCaseTest/target/jpetstore.war ubuntu@52.212.53.70:/opt/apache-tomcat-9/webapps/'
+                sh 'sudo scp -i ~/.ssh/ForestMain /Users/Shared/Jenkins/Home/workspace/useCaseTest/target/jpetstore.war ubuntu@52.212.53.70:/opt/apache-tomcat-9/webapps/'
                 
                 
                 echo 'Deployed.'
