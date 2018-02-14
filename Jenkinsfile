@@ -28,8 +28,11 @@ pipeline
         {
             steps 
             {
-                echo 'Deploying....'
-                sh 'sudo cp /Users/Shared/Jenkins/Home/workspace/useCaseTest/target/jpetstore.war /Users/martyn/apache-tomcat-9.0.5/webapps/'
+                echo 'Deploying....'       
+                withCredentials([sshUserPrivateKey(credentialsId: 'e731d4d6-5cfc-4cfb-a557-869770d27a6a', keyFileVariable: 'sshVar', passphraseVariable: '', usernameVariable: 'ubuntu')]) {
+                    sh 'scp /Users/Shared/Jenkins/Home/workspace/useCaseTest/target/jpetstore.war http://52.212.53.70:/opt/apache-tomcat-9/webapps/'
+                }
+                
                 echo 'Deployed.'
             }
         }
