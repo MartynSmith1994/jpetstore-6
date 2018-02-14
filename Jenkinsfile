@@ -29,8 +29,9 @@ pipeline
             steps 
             {
                 echo 'Deploying....'       
-                withCredentials([sshUserPrivateKey(credentialsId: 'e731d4d6-5cfc-4cfb-a557-869770d27a6a', keyFileVariable: 'sshVar', passphraseVariable: '', usernameVariable: 'ubuntu')]) {
-                    sh 'scp /Users/Shared/Jenkins/Home/workspace/useCaseTest/target/jpetstore.war 52.212.53.70:/opt/apache-tomcat-9/webapps/'
+                withCredentials([sshUserPrivateKey(credentialsId: 'b7e92b46-352a-460c-b8c4-c140f48af75f', keyFileVariable: 'KFvar', passphraseVariable: 'PPvar', usernameVariable: 'ubuntu')]) 
+                {
+                    sh 'scp /Users/Shared/Jenkins/Home/workspace/useCaseTest/target/jpetstore.war ubuntu@52.212.53.70:/opt/apache-tomcat-9/webapps/'
                 }
                 
                 echo 'Deployed.'
